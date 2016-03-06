@@ -10,9 +10,9 @@ public:
 
 	void roll(int, int);
 
-	float average(int Array[], int);
+	float average();  //average of outcomes
 
-	float average(int, int);   //average of the outcomes
+	float average(int, int);   
 
 private:
 	int newDiceRoll;

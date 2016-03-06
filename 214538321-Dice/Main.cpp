@@ -12,7 +12,7 @@ int main(){
 	
 	Dice Dice1;
 	Dice1.roll(n, i);
-
+	Dice1.average();
 
 
 

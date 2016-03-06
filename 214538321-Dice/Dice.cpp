@@ -16,13 +16,12 @@ Dice::Dice(){
 
 }
 
-float Dice::average(int Array[], int Rolls){
-	Array[100] = newDiceArray[100];
-	Rolls = newRollNumber;
+float Dice::average(){
+
 	int i, sum;
 	sum = 0;
-	for (i = 0; i = Rolls; i++){
-		sum = +Array[i];
+	for (i = 0; i = newRollNumber; i++){
+		sum = +newDiceArray[i];
 	}
-	return sum/Rolls;
+	return sum / newRollNumber;
 }
