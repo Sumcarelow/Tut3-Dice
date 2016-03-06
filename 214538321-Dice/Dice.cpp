@@ -1,8 +1,9 @@
 #include"Dice.h"
 
-void Dice::roll(int n, int i){
-
-	for (i = 0; i == n; i++){
+void Dice::roll(int n){
+	int i;
+	
+	for (i = 0; i <= n; i++){
 		newDiceRoll = rand() % 6 + 1;
 		newDiceArray[i] = newDiceRoll;
 		newRollNumber = +1;

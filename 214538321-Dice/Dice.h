@@ -8,7 +8,7 @@ class Dice {
 public:
 	Dice();
 
-	void roll(int, int);
+	void roll(int);
 
 	float average();  //average of outcomes
 

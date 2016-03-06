@@ -11,8 +11,10 @@ int main(){
 	cin >> n;
 	
 	Dice Dice1;
-	Dice1.roll(n, i);
-	Dice1.average();
+	
+	Dice1.roll(n);
+	cout << "the average of the rolled numbers is:" << Dice1.average() << endl;
+
 
 
 
