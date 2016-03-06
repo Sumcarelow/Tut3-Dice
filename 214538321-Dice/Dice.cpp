@@ -1,20 +1,24 @@
 #include"Dice.h"
 
-void Dice::roll(int n){
-	int i;
-	
-	for (i = 0; i <= n; i++){
-		newDiceRoll = rand() % 6 + 1;
-		newDiceArray[i] = newDiceRoll;
-		newRollNumber = +1;
-	}
+
+int Dice::getDiceAarray() const{
+	return newDiceArray[100];
+}
+int	Dice::getRolls() const{
+	return newRollNumber;
 }
 
-Dice::Dice(){
-	newDiceRoll = 0;
-	newDiceArray[100] = 0;
-	newRollNumber = 0;
 
+Dice::~Dice(){
+
+}
+
+Dice::Dice( int DiceArray[], int rollNumber, int n){
+	int i;
+	for (i = 0; i <= n; i++){
+		newDiceArray[i] = DiceArray[i];
+	}
+	newRollNumber = rollNumber;
 }
 
 float Dice::average(){
