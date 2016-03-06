@@ -12,7 +12,7 @@ public:
 
 	float average(int Array[], int);
 
-	float average(int, int);
+	float average(int, int);   //average of the outcomes
 
 private:
 	int newDiceRoll;

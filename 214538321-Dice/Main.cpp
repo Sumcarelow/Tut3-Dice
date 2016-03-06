@@ -10,6 +10,8 @@ int main(){
 	cout << "Please enter the number of rolls" << endl;
 	cin >> n;
 	
+	Dice Dice1;
+	Dice1.roll(n, i);
 
 
 
